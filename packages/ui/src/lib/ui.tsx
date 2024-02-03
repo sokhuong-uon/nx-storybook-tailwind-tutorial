@@ -4,7 +4,7 @@ export interface UiProps {}
 export function Ui(props: UiProps) {
   return (
     <div>
-      <h1>Welcome to Ui!</h1>
+      <h1 className="text-3xl text-red-500">Welcome to Ui!</h1>
     </div>
   );
 }
